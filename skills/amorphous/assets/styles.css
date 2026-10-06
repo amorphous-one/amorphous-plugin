@@ -1,0 +1,31 @@
+main {
+  font: 16px/1.45 system-ui, sans-serif;
+  margin: 4rem auto;
+  max-width: 32rem;
+  padding: 0 1.25rem;
+  color: #18181b;
+}
+
+#who {
+  color: #52525b;
+}
+
+ul {
+  padding-left: 1.1rem;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+input {
+  flex: 1;
+  font: inherit;
+  padding: 0.4rem 0.55rem;
+}
+
+button {
+  font: inherit;
+}
