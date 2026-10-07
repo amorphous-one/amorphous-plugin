@@ -2,7 +2,7 @@
   "mcpServers": {
     "amorphous": {
       "command": "npx",
-      "args": ["-y", "--package", "amorphous-cli", "amorphous-mcp"]
+      "args": ["-y", "amorphous-cli", "mcp"]
     }
   }
 }
