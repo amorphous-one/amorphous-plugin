@@ -1,7 +1,8 @@
 {
   "name": "amorphous",
-  "description": "A page people use together. Your own agent builds it.",
-  "version": "0.1.4",
+  "description": "Build abstracts on Amorphous. An abstract can be anything.",
+  "version": "0.1.5",
+  "license": "LicenseRef-Amorphous-All-Rights-Reserved",
   "author": {
     "name": "Amorphous",
     "email": "hello@amorphous.one"
