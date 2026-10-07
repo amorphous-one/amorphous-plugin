@@ -3,7 +3,7 @@
   "name": "io.github.djaxho/amorphous",
   "description": "A page people use together. Your own agent builds it.",
   "repository": {
-    "url": "https://github.com/djaxho/amorphous-plugin",
+    "url": "https://github.com/amorphous-one/amorphous-plugin",
     "source": "github"
   },
   "version": "0.1.3",
