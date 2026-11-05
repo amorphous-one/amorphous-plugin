@@ -1,9 +1,22 @@
 # Amorphous
 
-Amorphous lets a person or their agent build abstracts. There can be many. An abstract can be anything.
+Make and reshape abstracts on [Amorphous](https://amorphous.one) with your own agent.
 
-This plugin installs the Amorphous skill and starts a local MCP server on your computer. The server runs `npx -y amorphous-cli@0.1.7 mcp`. It does not open a remote connection. Sign in with `amorphous login` in the browser on the same computer. The CLI then lists, pulls, pushes, previews, publishes, and invites on https://amorphous.one.
+This plugin adds the Amorphous skill and connects the remote MCP server at `https://amorphous.one/mcp`. The first time your agent uses it, you sign in to Amorphous in your browser and approve the connection. You can disconnect it at any time in Amorphous Settings.
+
+## Install
+
+Claude Code:
 
 ```bash
-npx -y amorphous-cli@0.1.7 setup
+claude plugin marketplace add amorphous-one/amorphous-plugin
+claude plugin install amorphous@amorphous
 ```
+
+Any coding agent (installs the skill and connects the MCP server for Claude Code, Codex, Gemini CLI and Cursor):
+
+```bash
+npx --yes amorphous-cli@latest setup
+```
+
+Chat apps: add `https://amorphous.one/mcp` as a custom connector.

@@ -1,0 +1,17 @@
+{
+  "name": "amorphous",
+  "owner": {
+    "name": "Amorphous",
+    "email": "hello@amorphous.one"
+  },
+  "plugins": [
+    {
+      "name": "amorphous",
+      "source": "./",
+      "description": "Make and reshape abstracts on Amorphous with your own agent."
+    }
+  ],
+  "metadata": {
+    "description": "The Amorphous plugin for coding agents."
+  }
+}

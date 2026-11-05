@@ -1,27 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.amorphous-one/amorphous",
-  "description": "Build abstracts on Amorphous. An abstract can be anything.",
+  "title": "Amorphous",
+  "description": "Make and reshape shared web apps (abstracts) with your own agent.",
   "repository": {
     "url": "https://github.com/amorphous-one/amorphous-plugin",
     "source": "github"
   },
-  "version": "0.1.7",
-  "packages": [
+  "version": "0.2.0",
+  "websiteUrl": "https://amorphous.one",
+  "remotes": [
     {
-      "registryType": "npm",
-      "identifier": "amorphous-cli",
-      "version": "0.1.7",
-      "runtimeHint": "npx",
-      "transport": {
-        "type": "stdio"
-      },
-      "packageArguments": [
-        {
-          "type": "positional",
-          "value": "mcp"
-        }
-      ]
+      "type": "streamable-http",
+      "url": "https://amorphous.one/mcp"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "amorphous": {
-      "command": "npx",
-      "args": ["-y", "amorphous-cli@0.1.7", "mcp"]
+      "type": "http",
+      "url": "https://amorphous.one/mcp"
     }
   }
 }
